@@ -1,0 +1,32 @@
+/*
+ * style.css
+ * Copyright (C) 2014 KuoE0
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200);
+
+#header-bg {
+	background-image: url('../../images/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#header h1 {
+	font-size: 6em;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+
+	padding-top: 4em;
+	padding-bottom: 0.5em;
+}
+
+#header p {
+	font-size: 1.5em;
+}
+
+
+
