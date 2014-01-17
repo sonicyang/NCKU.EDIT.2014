@@ -40,3 +40,8 @@
 	}
 
 }
+
+/* Overwrite Semantic UI */
+.ui.red.header {
+	color: #B9000B!important;
+}
