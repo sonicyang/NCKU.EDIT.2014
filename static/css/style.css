@@ -32,13 +32,23 @@
 	padding: 0 8%;
 }
 
-@media screen and (max-width: 480px) {
+#dropdown-menu {
+	display: none;
+}
+
+@media screen and (max-width: 960px) {
 	#header h1 {
 		font-size: 3em;
 		padding-top: 1em;
-
+	}
+	
+	#horizontal-menu {
+		display: none;
 	}
 
+	#dropdown-menu {
+		display: inline-block;
+	}
 }
 
 /* Overwrite Semantic UI */
