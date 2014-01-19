@@ -15,21 +15,18 @@ html {
 }
 
 
-#intro-content {
-	font-size: 2em;
-}
-
 #header h1 {
 	font-size: 7em;
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 200;
 
-	padding-top: 3.5em;
-	padding-bottom: 1.75em;
+	padding-top: 2.5em;
+	padding-bottom: 0.75em;
 }
 
 #header p {
 	font-size: 1.5em;
+	padding-bottom: 2em;
 }
 
 #fix-menu-container {
@@ -48,10 +45,15 @@ html {
 
 	#header h1 {
 		font-size: 6em;
-		padding-top: 2em;
-		padding-bottom: 1em;
+		padding-top: 1.5em;
+		padding-bottom: 0.5em;
 	}
 	
+	#header p {
+		font-size: 1.3em;
+		padding-bottom: 1em;
+	}
+
 	#horizontal-menu {
 		display: none;
 	}
@@ -62,9 +64,15 @@ html {
 }
 
 @media screen and (max-width: 767px) {
+
 	#header h1 {
 		font-size: 5em;
-		padding-top: 1.5em;
+		padding-top: 1em;
+		padding-bottom: 0.25em;
+	}
+
+	#header p {
+		font-size: 1.1em;
 		padding-bottom: 0.75em;
 	}
 
@@ -82,7 +90,12 @@ html {
 
 	#header h1 {
 		font-size: 3em;
-		padding-top: 1em;
+		padding-top: 0.75em;
+		padding-bottom: 0.25em;
+	}
+
+	#header p {
+		font-size: 0.9em;
 		padding-bottom: 0.5em;
 	}
 
@@ -105,7 +118,7 @@ html {
 
 /* Extend Semantic UI */
 
-.ui.white.header {
+.ui.white {
 	color: white;
 }
 
