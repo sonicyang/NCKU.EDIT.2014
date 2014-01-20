@@ -43,16 +43,10 @@ html {
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
 
-	#header h1 {
-		font-size: 6em;
-		padding-top: 1.5em;
-		padding-bottom: 0.5em;
+	html {
+		font-size: 14px;
 	}
-	
-	#header p {
-		font-size: 1.3em;
-		padding-bottom: 1em;
-	}
+
 
 	#horizontal-menu {
 		display: none;
@@ -65,15 +59,8 @@ html {
 
 @media screen and (max-width: 767px) {
 
-	#header h1 {
-		font-size: 5em;
-		padding-top: 1em;
-		padding-bottom: 0.25em;
-	}
-
-	#header p {
-		font-size: 1.1em;
-		padding-bottom: 0.75em;
+	html {
+		font-size: 12px;
 	}
 
 	#horizontal-menu {
@@ -88,15 +75,8 @@ html {
 
 @media screen and (max-width: 480px) {
 
-	#header h1 {
-		font-size: 3em;
-		padding-top: 0.75em;
-		padding-bottom: 0.25em;
-	}
-
-	#header p {
-		font-size: 0.9em;
-		padding-bottom: 0.5em;
+	html {
+		font-size: 10px;
 	}
 
 	#horizontal-menu {
