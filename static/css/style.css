@@ -44,17 +44,9 @@ html {
 @media screen and (min-width: 768px) and (max-width: 979px) {
 
 	html {
-		font-size: 14px;
+		font-size: 13px;
 	}
 
-
-	#horizontal-menu {
-		display: none;
-	}
-
-	#dropdown-menu {
-		display: inline-block;
-	}
 }
 
 @media screen and (max-width: 767px) {
