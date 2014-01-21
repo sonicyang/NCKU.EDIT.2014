@@ -37,6 +37,11 @@ html {
 	display: none;
 }
 
+#footer-container {
+	margin-top: 0;
+	font-weight: 100;
+}
+
 @media screen and (min-width: 1200px) {
 
 }
