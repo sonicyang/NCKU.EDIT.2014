@@ -86,11 +86,19 @@ html {
 
 }
 
+.user.image {
+	margin: auto;
+}
 
 /* Overwrite Semantic UI */
 
 .ui.inverted.red.menu {
 	background-color: #B9000B!important;
+}
+
+#program table .row,
+#program table .ui.celled.grid {
+	box-shadow: none;
 }
 
 /* Extend Semantic UI */
@@ -105,5 +113,9 @@ html {
 
 .ui.textshadow {
 	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+}
+
+.ui.semi-transparent {
+	opacity: 0.9;
 }
 
