@@ -10,5 +10,7 @@ $(function () {
 	// initial Semantic UI modules
 	$('.dropdown').dropdown();
 
+	$('.speaker.image').popup();
+
 
 });
