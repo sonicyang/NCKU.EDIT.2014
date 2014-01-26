@@ -1,0 +1,9 @@
+{
+	"name": "NCKUEDIT2014",
+	"version": "0.0.1",
+	"dependencies": {
+		"semantic-ui": "Semantic-Org/Semantic-UI#0.12.1",
+		"normalize-css": "2.1.3"
+	}
+}
+

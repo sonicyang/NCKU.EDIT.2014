@@ -1,0 +1,117 @@
+/*
+ * style.css
+ * Copyright (C) 2014 KuoE0
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200);
+
+html {
+	background: url('../../images/bg.jpg') no-repeat center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+}
+
+
+#header h1 {
+	font-size: 7em;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
+
+	padding-top: 2.5em;
+	padding-bottom: 0.75em;
+}
+
+#header p {
+	font-size: 1.5em;
+	padding-bottom: 2em;
+}
+
+#fix-menu-container {
+	margin: 0;
+}
+
+#dropdown-menu {
+	display: none;
+}
+
+#footer-container {
+	margin-top: 0;
+	font-weight: 100;
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px) {
+
+	html {
+		font-size: 13px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	html {
+		font-size: 12px;
+	}
+
+	#horizontal-menu {
+		display: none;
+	}
+
+	#dropdown-menu {
+		display: inline-block;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	html {
+		font-size: 10px;
+	}
+
+	#horizontal-menu {
+		display: none;
+	}
+
+	#dropdown-menu {
+		display: inline-block;
+	}
+
+}
+
+.speaker.image {
+	margin: auto;
+}
+
+/* Overwrite Semantic UI */
+
+.ui.inverted.red.menu {
+	background-color: #B9000B!important;
+}
+
+#program table .row,
+#program table .ui.celled.grid {
+	box-shadow: none;
+}
+
+/* Extend Semantic UI */
+
+.ui.white {
+	color: white;
+}
+
+.ui.thin {
+	font-weight: 200;
+}
+
+.ui.textshadow {
+	text-shadow: 2px 2px 2px rgba(0,0,0,1);
+}
+

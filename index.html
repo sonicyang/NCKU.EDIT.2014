@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+		<title>NCKU EDiT 2014</title>
+		<link rel="stylesheet" type="text/css" href="static/components/normalize-css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/packaged/css/semantic.min.css" />
+		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/minified/modules/dropdown.min.css" />
+		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/minified/modules/transition.min.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+
+		<script type="text/javascript" src="static/components/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="static/components/semantic-ui/build/packaged/javascript/semantic.min.js"></script>
+		<script type="text/javascript" src="static/components/semantic-ui/build/minified/modules/dropdown.min.js"></script>
+		<script type="text/javascript" src="static/components/semantic-ui/build/minified/modules/transition.min.js"></script>
+		<script type="text/javascript" src="static/components/semantic-ui/build/minified/modules/popup.min.js"></script>
+		<script type="text/javascript" src="static/js/main.js"></script>
+		<script type="text/javascript" src="static/js/moretext-1.2.js"></script>
+	</head>
+	<body>
+		<div class="ui fixed red inverted page grid main menu">
+			<div id="fix-menu-container" class="column">
+				<div id="dropdown-menu" class="ui right pointing dropdown link item">
+					<i class="list icon"></i>
+					<div class="menu">
+						<a class="item" href="#home"><i class="home icon"></i> EDiT</a>
+						<a class="item" href="#announcement"><i class="pin icon"></i> 公告</a>
+						<a class="item" href="#speaker"><i class="users icon"></i> 講師</a>
+						<a class="item" href="#program"><i class="paint basic icon"></i> 議程</a>
+						<a class="item" href="#location"><i class="map marker icon"></i> 地點</a>
+						<a class="item" href="#staff"><i class="info icon"></i> 工作人員</a>
+						<a class="item" href="#sponsor"><i class="bullhorn icon"></i> 贊助</a>
+						<a class="item" href="#contact"><i class="mail icon"></i> 聯絡我們</a>
+					</div>
+				</div>
+
+				<div id="horizontal-menu" class="right menu">
+					<a class="item" href="#home"><i class="home icon"></i> EDiT</a>
+					<a class="item" href="#announcement"><i class="pin icon"></i> 公告</a>
+					<a class="item" href="#program"><i class="paint basic icon"></i> 議程</a>
+					<a class="item" href="#location"><i class="map marker icon"></i> 地點</a>
+					<a class="item" href="#staff"><i class="info icon"></i> 工作人員</a>
+					<a class="item" href="#sponsor"><i class="bullhorn icon"></i> 贊助</a>
+					<a class="item" href="#contact"><i class="mail icon"></i> 聯絡我們</a>
+				</div>
+			</div>
+
+		</div>
+		<div id="home" class="ui page grid">
+			<div id="header" class="column">
+				<h1 class="ui white center aligned textshadow header">NCKU EDiT</h1>
+				<p id="intro" class="ui white lipsum(1,200)"></p>
+			</div>
+		</div>
+		<div id="announcement" class="ui page grid">
+			<div id="annoucement-content" class="column">
+				<h1 class="ui white thin huge textshadow header"><i class="pin icon"></i> 公告</h1>
+				<div class="ui raised segment">
+					<div class="ui vertical segment">
+						<h2>2014/01/27</h2>
+						<p class="lipsum(1,100)"></p>
+					</div>
+					<div class="ui vertical segment">
+						<h2>2014/01/25</h2>
+						<p class="lipsum(1,100)"></p>
+					</div>
+					<div class="ui vertical segment">
+						<h2>2014/01/23</h2>
+						<p class="lipsum(1,100)"></p>
+					</div>
+					<div class="ui vertical segment">
+						<h2>2014/01/22</h2>
+						<p class="lipsum(1,100)"></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="program" class="ui page grid">
+			<div id="program-content" class="column">
+				<h1 class="ui white thin huge textshadow header"><i class="paint basic icon"></i> 議程</h1>
+				<table class="ui center aligned celled table segment">
+					<thead>
+						<tr>
+							<th class="two wide">
+								<h2 class="ui center aligned header">時間</h2>
+							</th>
+							<th class="fourteen wide">
+								<h2 class="ui center aligned header">流程</h2>
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>08:00 ~ 09:00</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">報到</h2>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>09:00 ~ 10:00</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">議程 1</h2>
+											<p class="lipsum(1,100)"></p>
+										</div>
+										<div class="two wide column center aligned">
+											<img class="ui small rounded speaker image" src="images/speaker_icon/hhh.jpg" data-title="HHH" data-content="學校要政治中立 ^.<~" />
+											<h3 class="ui header">HHH</h3>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>10:00 ~ 10:30</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">休息</h2>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>10:30 ~ 11:30</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">議程 2</h2>
+											<p class="lipsum(1,100)"></p>
+										</div>
+										<div class="two wide column center aligned">
+											<img class="ui small rounded speaker image" src="images/speaker_icon/hhh.jpg" data-title="HHH" data-content="學校要政治中立 ^.<~" />
+											<h3 class="ui header">HHH</h3>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>11:30 ~ 13:00</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">午餐</h2>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>13:00 ~ 14:00</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">議程 3</h2>
+											<p class="lipsum(1,100)"></p>
+										</div>
+										<div class="two wide column center aligned">
+											<img class="ui small rounded speaker image" src="images/speaker_icon/hhh.jpg" data-title="HHH" data-content="學校要政治中立 ^.<~" />
+											<h3 class="ui header">HHH</h3>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>14:00 ~ 14:30</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">休息</h2>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>14:30 ~ 15:30</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">議程 4</h2>
+											<p class="lipsum(1,100)"></p>
+										</div>
+										<div class="two wide column center aligned">
+											<img class="ui small rounded speaker image" src="images/speaker_icon/hhh.jpg" data-title="HHH" data-content="學校要政治中立 ^.<~" />
+											<h3 class="ui header">HHH</h3>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>15:30 ~ 16:00</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">休息</h2>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>16:00 ~ 17:00</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">議程 5</h2>
+											<p class="lipsum(1,100)"></p>
+										</div>
+										<div class="two wide column center aligned">
+											<img class="ui small rounded speaker image" src="images/speaker_icon/hhh.jpg" data-title="HHH" data-content="學校要政治中立 ^.<~" />
+											<h3 class="ui header">HHH</h3>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>17:00 ~</td>
+							<td>
+								<div class="ui celled grid">
+									<div class="row">
+										<div class="ten wide column">
+											<h2 class="ui header">回家〉〈</h2>
+										</div>
+									</div>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div id="location" class="ui page grid">
+			<div id="location-content" class="column">
+				<h1 class="ui white thin huge textshadow header"><i class="map marker icon"></i> 地點</h1>
+			</div>
+		</div>
+		<div id="staff" class="ui page grid">
+			<div id="staff-content" class="column">
+				<h1 class="ui white thin huge textshadow header"><i class="info icon"></i> 工作人員</h1>
+			</div>
+		</div>
+		<div id="sponsor" class="ui page grid">
+			<div id="sponsor-content" class="column">
+				<h1 class="ui white thin huge textshadow header"><i class="bullhorn icon"></i> 贊助</h1>
+			</div>
+		</div>
+		<div id="contact" class="ui page grid">
+			<div id="contact-content" class="column">
+				<h1 class="ui white thin huge textshadow header"><i class="mail icon"></i> 聯絡我們</h1>
+			</div>
+		</div>
+		<div class="ui divider">
+		</div>
+		<div id="footer" class="ui page grid">
+			<div id="footer-container" class="column">
+				<p class="ui center aliged white">&copy; 2014 NCKU EDiT</p>
+			</div>
+		</div>
+	</body>
+</html>
+
