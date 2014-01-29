@@ -90,19 +90,16 @@ html {
 	margin: auto;
 }
 
+.staff.image {
+	margin: 1rem auto;
+}
+
+.staff.label {
+	font-size: 1rem;
+}
+
 .under-fix-menu {
 	padding-top: 2rem;
-}
-
-/* Overwrite Semantic UI */
-
-.ui.inverted.red.menu {
-	background-color: #B9000B!important;
-}
-
-#program table .row,
-#program table .ui.celled.grid {
-	box-shadow: none;
 }
 
 .google-map {
@@ -120,6 +117,20 @@ html {
 	height: 100%!important;
 
 }
+
+
+
+/* Overwrite Semantic UI */
+
+.ui.inverted.red.menu {
+	background-color: #B9000B!important;
+}
+
+#program table .row,
+#program table .ui.celled.grid {
+	box-shadow: none;
+}
+
 
 /* Extend Semantic UI */
 
