@@ -131,6 +131,14 @@ html {
 	box-shadow: none;
 }
 
+.ui.red.ribbon.label {
+	background-color: #B9000B!important;
+	border-color: #77000B!important;
+}
+
+.ui.red.segment {
+	border-color: #B9000B!important;
+}
 
 /* Extend Semantic UI */
 
