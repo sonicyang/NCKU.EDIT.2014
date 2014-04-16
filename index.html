@@ -9,6 +9,30 @@
 		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/minified/modules/dropdown.min.css" />
 		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/minified/modules/transition.min.css" />
 		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+		<style>
+			#corner {
+				position: fixed;
+				z-index: 9999;
+				border-style: solid;
+				border-width: 60px;
+				border-color: rgba(255,255,255,.7) transparent transparent rgba(255,255,255,.7);
+			}
+			@keyframes show {
+				0% { margin-right: 0px; }
+				10% { margin-right: 0px; }
+				13% { margin-right: -10px; }
+				15% { margin-right: 0px; }
+				100% { margin-right: 0px; }
+			}
+			#facebook {
+				position: absolute;
+				bottom: 5px;
+				right: 5px;
+				width: 50px;
+				animation: show 10s linear infinite;
+
+			}
+		</style>
 
 		<script type="text/javascript" src="static/components/jquery/jquery.min.js"></script>
 		<script type="text/javascript" src="static/components/semantic-ui/build/packaged/javascript/semantic.min.js"></script>
@@ -19,6 +43,9 @@
 		<script type="text/javascript" src="static/js/moretext-1.2.js"></script>
 	</head>
 	<body>
+		<div id="corner">
+			<a href="http://goo.gl/MrG3xO" title="看看我們的 facebook！"><img id="facebook" src="images/facebook.png"></a>
+		</div>
 		<div class="ui fixed red inverted page grid main menu">
 			<div id="fix-menu-container" class="column">
 				<div id="dropdown-menu" class="ui right pointing dropdown link item">
