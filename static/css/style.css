@@ -20,8 +20,16 @@ html {
 	font-family: 'Exo 2', sans-serif;
 	font-weight: 200;
 
-	padding-top: 2.5em;
-	padding-bottom: 0.75em;
+	margin-top: 2.5em;
+}
+
+#header h2 {
+	font-size: 3em;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: 200;
+	margin-top: 10px;
+
+	margin-bottom: 0.75em;
 }
 
 #header p {
