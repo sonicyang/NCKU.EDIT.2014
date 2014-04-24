@@ -18,9 +18,10 @@ p {
 	font-family: 'Hiragino Kaku Gothic Pro', '微軟正黑體', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3, div.ui.label {
 	font-family: 'Exo 2', 'Hiragino Kaku Gothic Pro', '微軟正黑體', sans-serif;
 }
+
 
 
 #header h1 {
@@ -152,6 +153,10 @@ h1, h2 {
 
 .ui.label {
 	font-size: 1rem;
+}
+
+.ui.header {
+	font-weight: 100;
 }
 
 .ui.red.segment {
