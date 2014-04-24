@@ -3,12 +3,40 @@
 	<head>
         <meta charset="utf-8" />
 		<meta name="google-site-verification" content="303229JrEOKOLtpcXPu9HlOXOUBfY8xnv-UjtcXr9OU" />
+		<meta property="og:title" content="科技啓蒙 EDIT" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://edit.flipedu.tw" />
+		<meta property="og:image" content="http://edit.flipedu.tw/images/avatar.jpg" />
 		<title>NCKU EDiT 科技啓蒙 2014</title>
 		<link rel="stylesheet" type="text/css" href="static/components/normalize-css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/packaged/css/semantic.min.css" />
 		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/minified/modules/dropdown.min.css" />
 		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/minified/modules/transition.min.css" />
 		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+		<style>
+			#corner {
+				position: fixed;
+				z-index: 9999;
+				border-style: solid;
+				border-width: 60px;
+				border-color: rgba(255,255,255,.7) transparent transparent rgba(255,255,255,.7);
+			}
+			@keyframes show {
+				0% { margin-right: 0px; }
+				10% { margin-right: 0px; }
+				13% { margin-right: -10px; }
+				15% { margin-right: 0px; }
+				100% { margin-right: 0px; }
+			}
+			#facebook {
+				position: absolute;
+				bottom: 5px;
+				right: 5px;
+				width: 50px;
+				animation: show 10s linear infinite;
+
+			}
+		</style>
 
 		<script type="text/javascript" src="static/components/jquery/jquery.min.js"></script>
 		<script type="text/javascript" src="static/components/semantic-ui/build/packaged/javascript/semantic.min.js"></script>
@@ -19,6 +47,9 @@
 		<script type="text/javascript" src="static/js/moretext-1.2.js"></script>
 	</head>
 	<body>
+		<div id="corner">
+			<a href="http://goo.gl/MrG3xO" title="看看我們的 facebook！"><img id="facebook" src="images/facebook.png"></a>
+		</div>
 		<div class="ui fixed red inverted page grid main menu">
 			<div id="fix-menu-container" class="column">
 				<div id="dropdown-menu" class="ui right pointing dropdown link item">
@@ -49,6 +80,7 @@
 		<div id="home" class="ui page grid">
 			<div id="header" class="column">
 				<h1 class="ui white center aligned textshadow header">NCKU EDiT 科技啓蒙</h1>
+				<h2 class="ui white center aligned textshadow header">對新手最友善的科技研討會</h2>
 				<p id="intro" class="ui white thin center aligned" >
 					Enlightenment Day of Information Technology，企圖將同學被動學習轉化主動分享，鼓勵投稿發表, 企圖營造具有活力的發表平台。
 				</p>
@@ -65,9 +97,12 @@
 					<h2 class="ui header">題目主題</h2>
 					<p>任何與電腦資訊相關之題目、課堂 project、研究主題、自己寫的小工具等皆歡迎投稿。</p>
 					<h2 class="ui header">發表形式</h2>
-					<p>發表時間為 20 分鐘，除此之外並無其他限制，講者可以任意形式分享。大會提供講者獨立網路、投影機 (VGA 接頭)。</p>
+					<p>發表時間為 40 分鐘，含 QA、討論等，除此之外並無其他限制，講者可以任意形式分享。大會提供講者獨立網路、投影機 (VGA 接頭)。</p>
 					<h2 class="ui header">報名方式</h2>
-					<p>投稿請附上下列資訊以「EDIT 投稿」為信件標題，寄到 cfp<i class="basic email icon"></i>edit.flipedu.tw。</p>
+					<p>
+						投稿請附上下列資訊以「EDIT 投稿」為信件標題，寄到 cfp<i class="basic email icon"></i>edit.flipedu.tw。
+						如有疑問也歡迎來信詢問，或到<a href="http://goo.gl/MrG3xO">我們的粉絲頁</a>留言！
+					</p>
 					<div class="ui segment">
 						<div class="ui red label">題目</div>
 						<p>15 字以內的標題 (若有必要可酌情增加字數)</p>
@@ -80,7 +115,7 @@
 						<div class="ui red label">詳細說明</div>
 						<p>任何與題目相關內容（投影片、程式碼或參考資料等）有利於議程組審稿之內容</p>
 						<div class="ui red label">聯絡方式</div>
-						<p>手機、電子郵件及系級</p>
+						<p>手機、電子郵件及系級 (若為學生建議附上系級，有附有加分！)</p>
 
 					</div>
 					<h2 class="ui header">備註</h2>
