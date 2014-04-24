@@ -14,14 +14,17 @@ html {
 	-moz-background-size: cover;
 }
 
-body {
-	font: 'LiHei Pro', '微軟正黑體', sans-serif;
+p {
+	font-family: 'Hiragino Kaku Gothic Pro', '微軟正黑體', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Exo 2', 'Hiragino Kaku Gothic Pro', '微軟正黑體', sans-serif;
 }
 
 
 #header h1 {
 	font-size: 7em;
-	font-family: 'Exo 2', 'LiHei Pro', '微軟正黑體', sans-serif;
 	font-weight: 200;
 
 	margin-top: 2.5em;
@@ -29,7 +32,6 @@ body {
 
 #header h2 {
 	font-size: 3em;
-	font-family: 'Exo 2', 'LiHei Pro', '微軟正黑體', sans-serif;
 	font-weight: 200;
 	margin-top: 10px;
 
