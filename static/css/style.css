@@ -12,12 +12,13 @@ html {
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
+	font: 'LiHei Pro', '微軟正黑體';
 }
 
 
 #header h1 {
 	font-size: 7em;
-	font-family: 'Exo 2', sans-serif;
+	font-family: 'Exo 2', 'LiHei Pro', '微軟正黑體', sans-serif;
 	font-weight: 200;
 
 	padding-top: 2.5em;
