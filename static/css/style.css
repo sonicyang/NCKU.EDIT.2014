@@ -22,8 +22,6 @@ h1, h2, h3, div.ui.label {
 	font-family: 'Exo 2', 'Hiragino Kaku Gothic Pro', '微軟正黑體', sans-serif;
 }
 
-
-
 #header h1 {
 	font-size: 7em;
 	font-weight: 200;
@@ -45,6 +43,7 @@ h1, h2, h3, div.ui.label {
 }
 
 #fix-menu-container {
+	font-family: 'Hiragino Kaku Gothic Pro', '微軟正黑體', sans-serif;
 	margin: 0;
 }
 
