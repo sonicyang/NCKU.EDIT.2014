@@ -56,6 +56,29 @@ h1, h2, h3, div.ui.label {
 	font-weight: 100;
 }
 
+#corner {
+	position: fixed;
+	z-index: 9999;
+	border-style: solid;
+	border-width: 60px;
+	border-color: rgba(255,255,255,.7) transparent transparent rgba(255,255,255,.7);
+}
+@keyframes show {
+	0% { margin-right: 0px; }
+	10% { margin-right: 0px; }
+	13% { margin-right: -10px; }
+	15% { margin-right: 0px; }
+	100% { margin-right: 0px; }
+}
+#facebook {
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+	width: 50px;
+	animation: show 10s linear infinite;
+
+}
+
 @media screen and (min-width: 1200px) {
 
 }
