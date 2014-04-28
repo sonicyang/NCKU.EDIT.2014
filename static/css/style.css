@@ -68,14 +68,6 @@ h1, h2, h3, div.ui.label {
 	15% { margin-right: 0px; }
 	100% { margin-right: 0px; }
 }
-#facebook {
-	position: absolute;
-	bottom: 5px;
-	right: 5px;
-	width: 50px;
-	animation: show 10s linear infinite;
-
-}
 
 @media screen and (min-width: 1200px) {
 

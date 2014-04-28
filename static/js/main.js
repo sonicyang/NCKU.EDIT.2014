@@ -25,6 +25,11 @@ $(function () {
 		}
 
 		$('#fix-menu-container a').click(function (event) {
+			
+			if ($(this).hasClass('link')) {
+				return;
+			}
+
 			event.preventDefault();
 			var url = event.currentTarget.href;
 			var hash = url.substring(url.indexOf("#"));
