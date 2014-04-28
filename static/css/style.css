@@ -25,15 +25,13 @@ h1, h2, h3, div.ui.label {
 #header h1 {
 	font-size: 7em;
 	font-weight: 200;
-
-	margin-top: 2.5em;
+	margin-top: 3em;
 }
 
 #header h2 {
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 200;
 	margin-top: 10px;
-
 	margin-bottom: 0.75em;
 }
 
