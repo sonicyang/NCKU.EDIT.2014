@@ -25,7 +25,7 @@ h1, h2, h3, div.ui.label {
 #header h1 {
 	font-size: 7em;
 	font-weight: 200;
-	margin-top: 3em;
+	margin-top: 2em;
 }
 
 #header h2 {
@@ -37,7 +37,6 @@ h1, h2, h3, div.ui.label {
 
 #header p {
 	font-size: 1.5em;
-	padding-bottom: 2em;
 }
 
 #fix-menu-container {
@@ -61,6 +60,12 @@ h1, h2, h3, div.ui.label {
 	border-width: 60px;
 	border-color: rgba(255,255,255,.7) transparent transparent rgba(255,255,255,.7);
 }
+
+#news {
+	font-size: 3em !important;
+	color: #E6E6E6;
+}
+
 @keyframes show {
 	0% { margin-right: 0px; }
 	10% { margin-right: 0px; }
