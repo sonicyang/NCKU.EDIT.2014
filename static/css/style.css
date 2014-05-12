@@ -66,6 +66,10 @@ h1, h2, h3, div.ui.label {
 	color: #E6E6E6;
 }
 
+#news a:visited {
+	color: #E6E6E6;
+}
+
 @keyframes show {
 	0% { margin-right: 0px; }
 	10% { margin-right: 0px; }
