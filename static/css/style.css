@@ -66,7 +66,7 @@ h1, h2, h3, div.ui.label {
 	color: #E6E6E6;
 }
 
-#news a:visited {
+#news a:visited, #news a:link {
 	color: #E6E6E6;
 }
 
