@@ -104,18 +104,6 @@ h1, h2, h3, div.ui.label {
 	}
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2) {
-    html {
-		font-size: 150%;
-	}
-	#horizontal-menu {
-		display: none;
-	}
-	#dropdown-menu {
-		display: inline-block;
-	}
-}
-
 .speaker.image {
 	margin: auto;
 }
