@@ -78,14 +78,17 @@ h1, h2, h3, div.ui.label {
 	100% { margin-right: 0px; }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1110px) {
+	html {
+		font-size: 14px;
+	}
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 979px) {
+@media screen and (min-width: 768px) and (max-width: 1110px) {
 
 	html {
-		font-size: 13px;
+		font-size: 12px;
 	}
 
 }
@@ -95,7 +98,6 @@ h1, h2, h3, div.ui.label {
 	html {
 		font-size: 12px;
 	}
-
 	#horizontal-menu {
 		display: none;
 	}
@@ -107,9 +109,8 @@ h1, h2, h3, div.ui.label {
 }
 
 @media screen and (max-width: 480px) {
-
 	html {
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	#horizontal-menu {
