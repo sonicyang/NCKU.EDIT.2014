@@ -78,14 +78,14 @@ h1, h2, h3, div.ui.label {
 	100% { margin-right: 0px; }
 }
 
-@media screen and (min-width: 1110px) {
+@media screen and (min-width: 890px) {
 	html {
 		font-size: 14px;
 	}
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1110px) {
+@media screen and (max-width: 889px) {
 
 	html {
 		font-size: 12px;
@@ -95,9 +95,6 @@ h1, h2, h3, div.ui.label {
 
 @media screen and (max-width: 767px) {
 
-	html {
-		font-size: 12px;
-	}
 	#horizontal-menu {
 		display: none;
 	}
@@ -105,22 +102,18 @@ h1, h2, h3, div.ui.label {
 	#dropdown-menu {
 		display: inline-block;
 	}
-
 }
 
-@media screen and (max-width: 480px) {
-	html {
-		font-size: 12px;
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (-moz-min-device-pixel-ratio: 2) {
+    html {
+		font-size: 150%;
 	}
-
 	#horizontal-menu {
 		display: none;
 	}
-
 	#dropdown-menu {
 		display: inline-block;
 	}
-
 }
 
 .speaker.image {
