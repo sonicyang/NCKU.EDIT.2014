@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="google-site-verification" content="303229JrEOKOLtpcXPu9HlOXOUBfY8xnv-UjtcXr9OU" />
+		<meta property="og:title" content="IRC 教學 | 科技啓蒙 EDIT" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="http://edit.flipedu.tw/irc-tutorial.html" />
+		<meta property="og:image" content="http://edit.flipedu.tw/images/avatar.jpg" />
+
+		<title>IRC 教學</title>
+		<link rel="stylesheet" type="text/css" href="static/components/normalize-css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/packaged/css/semantic.min.css" />
+		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/minified/modules/dropdown.min.css" />
+		<link rel="stylesheet" type="text/css" href="static/components/semantic-ui/build/minified/modules/transition.min.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/style.css" />
+		<script type="text/javascript" src="static/components/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="static/components/semantic-ui/build/packaged/javascript/semantic.min.js"></script>
+		<script type="text/javascript" src="static/components/semantic-ui/build/minified/modules/dropdown.min.js"></script>
+		<script type="text/javascript" src="static/components/semantic-ui/build/minified/modules/transition.min.js"></script>
+		<script type="text/javascript" src="static/components/semantic-ui/build/minified/modules/popup.min.js"></script>
+		<script type="text/javascript" src="static/js/main.js"></script>
+	</head>
+
+	<body>
+		<div id="home" class="ui page grid">
+			<div id="header" class="column">
+				<h1 class="ui white center aligned textshadow header">IRC 教學</h1>
+			</div>
+		</div>
+		<div id="info" class="ui page grid">
+			<div id="info-content" class="under-fix-menu column">
+				<h1 class="ui white thin huge textshadow header"><i class="info icon"></i> 連線資訊</h1>
+				<div class="ui three column stackable zero-padding grid">
+					<div class="column">
+						<div class="ui center aligned segment">
+							<h2 class="ui top attached red large label">Network</h2>
+							<p>Freenode (irc.freenode.net)</p>
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui center aligned segment">
+							<h2 class="ui top attached red large label">Port</h2>
+							<p>6667 or 6697 (SSL)</p>
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui center aligned segment">
+							<h2 class="ui top attached red large label">Channel</h2>
+							<p>#EDIT-tw</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="webirc" class="ui page grid">
+			<div id="webirc-content" class="under-fix-menu column">
+				<h1 class="ui white thin huge textshadow header"><i class="chat icon"></i> Web IRC</h1>
+				<div class="ui one column zero-padding grid">
+					<div class="column">
+						<div class="ui center aligned segment">
+							<h2 class="ui top attached red large label">Step 1</h2>
+							<p>連上 <a target="_blank" href="http://webchat.freenode.net/?channels=EDIT-tw">http://webchat.freenode.net/?channels=EDIT-tw</a></p>
+
+							<a target="_blank" href="images/webchat-1.png"><img class="ui center aligned rounded image" src="images/webchat-1.png" /></a>
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui center aligned segment">
+							<h2 class="ui top attached red large label">Step 2</h2>
+							<p>填寫 Nickname 與 reCAPTCHA 後即可按下 Connect 開始連線</p>
+
+							<a target="_blank" href="images/webchat-2.png"><img class="ui center aligned rounded image" src="images/webchat-2.png" /></a>
+						</div>
+					</div>
+					<div class="column">
+						<div class="ui center aligned segment">
+							<h2 class="ui top attached red large label">Step 3</h2>
+							<p>即可進入聊天畫面</p>
+							<a target="_blank" href="images/webchat-3.png"><img class="ui center aligned rounded image" src="images/webchat-3.png" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="irc-command" class="ui page grid">
+			<div id="irc-command-content" class="under-fix-menu column">
+				<h1 class="ui white thin huge textshadow header"><i class="terminal icon"></i> IRC 指令</h1>
+				<div class="ui raised segment">
+					<table class="ui table">
+						<tr>
+							<td><pre><code>/away message</code></pre></td>
+							<td>告訴別人你暫時不能讀取或回應對話</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/help command</code></pre></td>
+							<td>查詢某指令的用法</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/ignore nick</code></pre></td>
+							<td>忽略某人送來的訊息；nick 是接受訊息的使用者暱稱</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/join #channel</code></pre></td>
+							<td>加入 channel</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/leave #channel</code></pre></td> 
+							<td>離開 channel</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/list</code></pre></td>
+							<td>列出所有的 channel</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/list #e*</code></pre></td>
+							<td>列出以 e 開頭的 channel 名稱</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/list -min x -max y</code></pre></td>
+							<td>列出參與人數多於 x 但少於 y 人的 channel</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/msg nick</code></pre></td>
+							<td>傳遞一私人訊息到此nickname去</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/nick newnick</code></pre></td>
+							<td>更改nickname</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/query nick</code></pre></td>
+							<td>與此人對話</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/quit</code></pre></td>
+							<td>離開IRC</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/who channel</code></pre></td>
+							<td>取得 channel 內使用者的相關資料 </td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/whois nick</code></pre></td>
+							<td>詢問有關此人的資料</td>
+						</tr>
+
+						<tr>
+							<td><pre><code>/whowas</code></pre></td>
+							<td>命令可以找出最近才離線的使用者（大概5-10分鐘左右離線的人）</td>
+						</tr>
+					</table>
+					<h4 class="ui center aligned header">參考資料： <a target="_blank" href="http://www1.pu.edu.tw/~yclo/paper/irc/irc1.html">http://www1.pu.edu.tw/~yclo/paper/irc/irc1.html</a></h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
