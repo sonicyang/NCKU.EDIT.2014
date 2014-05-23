@@ -184,3 +184,8 @@ h1, h2, h3, div.ui.label {
 	text-align: center;
 }
 
+.ui.center.aligned.image {
+	margin-left: auto;
+	margin-right: auto;
+}
+
